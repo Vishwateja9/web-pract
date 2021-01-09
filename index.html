@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>JQuery Tutorial</title>
+       
+       <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+       <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+               integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+               crossorigin="anonymous"></script>
+   
+        
+   
+    </head>
+    <body>
+        <h1>JQuery</h1>
+        <p>By Edureka</p>
+        <ul>
+            <li>Golden </li>
+            <li>boxer</li>
+        </ul>
+
+        <script>
+            $(document).ready(function(){
+               $("button").click(function(){
+                   alert($("#somevalue").val());
+               });
+
+            });
+        </script>
+        <input type="text" id ="somevalue" value=" ">
+        <button>SUBMIT</button>
+
+    </body>
+</html>
